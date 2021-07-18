@@ -1,6 +1,8 @@
 package pururin
 
-/*func TestParseURL(t *testing.T) {
+import "testing"
+
+func TestParseURL(t *testing.T) {
 	tests := []struct {
 		name string
 		url  string
@@ -8,11 +10,11 @@ package pururin
 	}{
 		{
 			name: "Single Gallery",
-			url:  "https://pururin.io/gallery/53855/melty-yuel",
+			url:  "https://pururin.to/gallery/53855/melty-yuel",
 			want: 1,
 		}, {
 			name: "Tag",
-			url:  "https://pururin.io/browse/tags/contents/1563/stockings.html",
+			url:  "https://pururin.to/browse/tags/contents/1563/stockings.html",
 			want: 20,
 		},
 	}
@@ -34,11 +36,11 @@ func TestExtract(t *testing.T) {
 	}{
 		{
 			name: "Single Gallery",
-			url:  "https://pururin.io/gallery/53855/melty-yuel",
+			url:  "https://pururin.to/gallery/53855/melty-yuel",
 			want: 1,
 		}, {
 			name: "Tag",
-			url:  "https://pururin.io/browse/tags/contents/1563/stockings.html",
+			url:  "https://pururin.to/browse/tags/contents/1563/stockings.html",
 			want: 20,
 		},
 	}
@@ -53,4 +55,4 @@ func TestExtract(t *testing.T) {
 			}
 		})
 	}
-}*/
+}

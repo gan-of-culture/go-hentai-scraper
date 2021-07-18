@@ -40,12 +40,12 @@ func TestExtract(t *testing.T) {
 	}{
 		{
 			name: "Single Episode",
-			url:  "https://hentaiyes.com/watch/hime-sama-love-life-episode-03/",
+			url:  "https://hentaiyes.com/watch/shikijou-kyoudan-episode-01/",
 			want: 1,
 		}, {
 			name: "Series",
-			url:  "https://hentaiyes.com/series/hime-sama-love-life/",
-			want: 3,
+			url:  "https://hentaiyes.com/series/akiko/",
+			want: 2,
 		},
 	}
 	for _, tt := range tests {

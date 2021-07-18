@@ -11,7 +11,7 @@ import (
 	"github.com/gan-of-culture/go-hentai-scraper/utils"
 )
 
-const site = "https://pururin.io/"
+const site = "https://pururin.to/"
 const cdn = "https://cdn.pururin.io/assets/images/data/%s/%d.jpg"
 
 type extractor struct{}

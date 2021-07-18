@@ -1,9 +1,6 @@
 package hentaihaven
 
-/*
-import "testing"
-
-func TestParseURL(t *testing.T) {
+/*func TestParseURL(t *testing.T) {
 	tests := []struct {
 		name string
 		url  string
@@ -41,7 +38,7 @@ func TestExtract(t *testing.T) {
 			want: 1,
 		}, {
 			name: "Series",
-			url:  "https://hentaihaven.xxx/watch/ero-konbini-tenchou/",
+			url:  "https://hentaihaven.xxx/watch/toshoshitsu-no-kanojo-seiso-na-kimi-ga-ochiru-made-the-animation/",
 			want: 4,
 		},
 	}
